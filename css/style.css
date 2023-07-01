@@ -53,16 +53,37 @@ a.in-link:hover {
 .project-img {
   box-shadow: var(--box-shadow);
 }
-
 .project-link {
   color: var(--primary-black);
 }
 .project-link:hover {
   color: var(--light-blue);
 }
+.stack-used {
+  margin: 0 14px;
+}
 
 @media (max-width: 767px) {
+  .intro-container {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  .intro-description {
+    font-size: 20px;
+  }
   .intro-content {
     text-align: center;
+  }
+  a.in-link {
+    margin: 0 5px;
+  }
+  .skillset-container {
+    font-size: 18px;
+  }
+  .dev-logo {
+    margin: 0 5px;
   }
 }
