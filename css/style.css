@@ -26,11 +26,20 @@ a.in-link:hover {
   color: var(--lighter-black);
 }
 
+.skillset-container {
+  font-size: 20px;
+}
+
+.dev-logo {
+  color: var(--primary-black);
+  margin: 0 10px;
+}
+
 .pfp {
   max-width: 300px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .intro-content {
     text-align: center;
   }
