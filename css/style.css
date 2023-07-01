@@ -1,6 +1,6 @@
 :root {
   --primary-black: #212529;
-  --lighter-black: #535c64;
+  --light-blue: #3878af;
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -26,7 +26,7 @@ a.in-link {
   margin-right: 10px;
 }
 a.in-link:hover {
-  color: var(--lighter-black);
+  color: var(--light-blue);
 }
 
 .skillset-container {
@@ -52,6 +52,13 @@ a.in-link:hover {
 
 .project-img {
   box-shadow: var(--box-shadow);
+}
+
+.project-link {
+  color: var(--primary-black);
+}
+.project-link:hover {
+  color: var(--light-blue);
 }
 
 @media (max-width: 767px) {
