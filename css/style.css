@@ -1,6 +1,7 @@
 :root {
   --primary-black: #212529;
   --lighter-black: #535c64;
+  --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .intro-content {
@@ -37,6 +38,10 @@ a.in-link:hover {
 
 .pfp {
   max-width: 300px;
+}
+
+.project-img {
+  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 767px) {
