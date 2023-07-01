@@ -4,6 +4,10 @@
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.intro-container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
 .intro-content {
   max-width: 400px;
 }
@@ -16,13 +20,11 @@ h1 {
 .intro-description {
   font-size: 25px;
 }
-
 a.in-link {
   color: var(--primary-black);
   font-size: 25px;
   margin-right: 10px;
 }
-
 a.in-link:hover {
   color: var(--lighter-black);
 }
@@ -30,10 +32,18 @@ a.in-link:hover {
 .skillset-container {
   font-size: 20px;
 }
-
 .dev-logo {
-  color: var(--primary-black);
   margin: 0 10px;
+  font-size: 22px;
+}
+.fa-html5 {
+  color: #e44d25;
+}
+.fa-css3-alt {
+  color: #016bc1;
+}
+.fa-square-js {
+  color: #e4a125;
 }
 
 .pfp {
