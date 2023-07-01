@@ -1,3 +1,8 @@
+:root {
+  --primary-black: #212529;
+  --lighter-black: #535c64;
+}
+
 .intro-content {
   max-width: 400px;
 }
@@ -12,9 +17,13 @@ h1 {
 }
 
 a.in-link {
-  color: #212529;
+  color: var(--primary-black);
   font-size: 25px;
   margin-right: 10px;
+}
+
+a.in-link:hover {
+  color: var(--lighter-black);
 }
 
 .pfp {
