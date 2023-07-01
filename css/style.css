@@ -29,3 +29,9 @@ a.in-link:hover {
 .pfp {
   max-width: 300px;
 }
+
+@media (max-width: 768px) {
+  .intro-content {
+    text-align: center;
+  }
+}
