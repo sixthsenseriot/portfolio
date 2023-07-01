@@ -2,6 +2,7 @@
   --primary-black: #212529;
   --light-blue: #3878af;
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --grotesk-font: "Schibsted Grotesk", sans-serif;
 }
 
 .intro-container {
@@ -13,8 +14,13 @@
 }
 
 h1 {
-  font-family: "Schibsted Grotesk", sans-serif;
+  font-family: var(--grotesk-font);
   font-size: 50px;
+  font-weight: 700;
+}
+h2 {
+  font-family: var(--grotesk-font);
+  font-weight: 600;
 }
 
 .intro-description {
