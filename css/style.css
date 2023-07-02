@@ -116,6 +116,9 @@ a.in-link:hover {
   .dev-logo {
     margin: 0 5px;
   }
+  .about-container {
+    padding-top: 80px;
+  }
   .about-content {
     text-align: center;
     margin: 0;
