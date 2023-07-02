@@ -99,6 +99,12 @@ a.in-link:hover {
 .stack-used {
   margin: 0 14px;
 }
+.enhance-img {
+  transition: transform 0.2s;
+}
+.enhance-img:hover {
+  transform: scale(1.02);
+}
 
 @media (max-width: 767px) {
   .intro-container {
