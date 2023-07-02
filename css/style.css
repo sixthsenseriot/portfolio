@@ -19,6 +19,9 @@
   max-width: 400px;
   margin: 3rem;
 }
+.content-container {
+  padding-top: 40px;
+}
 
 h1 {
   font-family: var(--grotesk-font);
