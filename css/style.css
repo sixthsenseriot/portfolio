@@ -122,6 +122,10 @@ footer .contact-box p {
 .pfp {
   max-width: 300px;
 }
+.pfp-about {
+  max-width: 300px;
+  margin-top: 60px;
+}
 
 .project-img {
   box-shadow: var(--box-shadow);
