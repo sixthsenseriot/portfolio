@@ -17,6 +17,7 @@
 }
 .about-content {
   max-width: 400px;
+  margin: 3rem;
 }
 
 h1 {
@@ -117,5 +118,6 @@ a.in-link:hover {
   }
   .about-content {
     text-align: center;
+    margin: 0;
   }
 }
