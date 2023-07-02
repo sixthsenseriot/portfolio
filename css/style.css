@@ -12,6 +12,12 @@
 .intro-content {
   max-width: 400px;
 }
+.about-container {
+  padding-top: 40px;
+}
+.about-content {
+  max-width: 400px;
+}
 
 h1 {
   font-family: var(--grotesk-font);
@@ -23,7 +29,8 @@ h2 {
   font-weight: 600;
 }
 
-.intro-description {
+.intro-description,
+.about-description {
   font-size: 25px;
 }
 a.in-link {
@@ -33,6 +40,22 @@ a.in-link {
 }
 a.in-link:hover {
   color: var(--light-blue);
+}
+
+.see-proj-btn {
+  border-radius: 4px;
+  padding: 15px 20px;
+  color: white;
+  background-color: var(--primary-black);
+  border: none;
+  font-family: var(--grotesk-font);
+  opacity: 0.8;
+}
+.see-proj-btn:hover {
+  cursor: pointer;
+  background-color: var(--light-blue);
+  color: white;
+  transition: all 100ms ease-in-out;
 }
 
 .skillset-container {
@@ -91,5 +114,8 @@ a.in-link:hover {
   }
   .dev-logo {
     margin: 0 5px;
+  }
+  .about-content {
+    text-align: center;
   }
 }
