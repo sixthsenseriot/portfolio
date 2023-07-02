@@ -6,14 +6,14 @@
 }
 
 .intro-container {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 200px;
 }
 .intro-content {
   max-width: 400px;
 }
 .about-container {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 .about-content {
   max-width: 400px;
@@ -21,7 +21,7 @@
 }
 .content-container,
 .projects-header {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 h1 {
