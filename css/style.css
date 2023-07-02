@@ -19,7 +19,8 @@
   max-width: 400px;
   margin: 3rem;
 }
-.content-container {
+.content-container,
+.projects-header {
   padding-top: 40px;
 }
 
@@ -46,8 +47,13 @@ a.in-link {
   font-size: 25px;
   margin-right: 10px;
 }
-a.in-link:hover {
+a.in-link:hover,
+a.contact:hover {
   color: var(--light-blue);
+}
+a.contact,
+.contact-logo {
+  color: var(--primary-black);
 }
 
 .see-proj-btn {
@@ -135,5 +141,8 @@ a.in-link:hover {
   .about-content {
     text-align: center;
     margin: 0;
+  }
+  .card {
+    padding: 10px;
   }
 }
