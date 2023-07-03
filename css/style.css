@@ -232,3 +232,24 @@ footer .contact-box p {
     font-size: 20px !important;
   }
 }
+
+@media (max-width: 280px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .contact-container {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .intro-container {
+    padding-top: 0;
+  }
+  .about-container {
+    padding-top: 20px;
+  }
+}
