@@ -7,14 +7,14 @@
 }
 
 .intro-container {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 200px;
 }
 .intro-content {
   max-width: 400px;
 }
 .about-container {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 .about-content {
   max-width: 400px;
@@ -240,6 +240,9 @@ footer .contact-box p {
   }
   h2 {
     font-size: 26px;
+  }
+  .about-container {
+    padding-top: 50px !important;
   }
   .contact-container {
     font-size: 12px;
