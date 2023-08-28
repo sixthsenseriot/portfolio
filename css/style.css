@@ -119,6 +119,15 @@ footer .contact-box p {
 .fa-square-js {
   color: #e4a125;
 }
+.fa-react {
+  color: #61dbfb;
+}
+.fa-database {
+  color: #396c94;
+}
+.fa-bootstrap {
+  color: #8f1aff;
+}
 
 .pfp {
   max-width: 300px;
