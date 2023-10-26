@@ -153,6 +153,19 @@ footer .contact-box p {
   }
 }
 
+/* .rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+} */
+
 .pfp-about {
   max-width: 300px;
   margin-top: 64px;
