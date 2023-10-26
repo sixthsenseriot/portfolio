@@ -6,6 +6,11 @@
   --grotesk-font: "Schibsted Grotesk", sans-serif;
 }
 
+iframe {
+  width: 100%;
+  height: 500px;
+}
+
 .intro-container {
   padding-top: 100px;
   padding-bottom: 200px;
@@ -22,6 +27,7 @@
 }
 .content-container,
 .contact-container,
+.resume-container,
 .projects-header {
   padding-top: 38px;
 }
@@ -150,6 +156,11 @@ footer .contact-box p {
 .pfp-about {
   max-width: 300px;
   margin-top: 64px;
+}
+
+.resume-img {
+  max-width: 100%;
+  width: 850px;
 }
 
 .project-img {
