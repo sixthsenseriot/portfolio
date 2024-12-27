@@ -113,7 +113,7 @@ footer .contact-box p {
   font-size: 20px;
 }
 .dev-logo {
-  margin: 0 10px;
+  margin: 0 15px 0 0;
   font-size: 22px;
 }
 .fa-html5 {
@@ -133,6 +133,9 @@ footer .contact-box p {
 }
 .fa-bootstrap {
   color: #8f1aff;
+}
+.fa-python {
+  color: #0277BD;
 }
 
 .pfp {
